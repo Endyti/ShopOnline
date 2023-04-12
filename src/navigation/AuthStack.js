@@ -11,13 +11,6 @@ import LichSuNapTien from "../edit/LichSuNapTien";
 import LichSuOrders from "../edit/LichSuOrders";
 import NewsChitiet from "../common/NewsChitiet";
 const Stack = createNativeStackNavigator();
-// const HomeScreen = () => {
-//   return(
-//     <AuthDrawer/>
-  
-//   )
-  
-//   }
 const AuthStack = ()=>{
     return(
         <Stack.Navigator  initialRouteName="Login">
